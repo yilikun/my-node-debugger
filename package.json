@@ -1,0 +1,9 @@
+{
+  "name": "node-debug-demo",
+  "description": "Node Debug Demo",
+  "version": "0.0.1",
+  "scripts": {
+    "init": "git submodule update --init --recursive; cd vscode-node-debug2; npm install; npm run build",
+    "start": "node server.js"
+  }
+}
